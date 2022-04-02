@@ -1,26 +1,158 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
 
 
 body {
-    
-  
     background-color: #E5E5E5;
 }
 
 .container {
-    width: 414px;
+   width: 414px;
 }
 
 .topo {
     height: 92px;
-    background-color: #CF2B2B;    
+    background-color: #CF2B2B;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.topo h1 {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    height: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    margin-left: 21px;
+    padding-top: 8px;
+}
+
+.topo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 21px;
+    margin-top: 5px;
 }
 
 .conteudo {
     height: 842px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Primeiro {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    height: 25px;
+    margin: 31px 0 17px 19px;
+}
+
+.marginMenor {
+    margin-top: 27px;
+}
+
+.conteudo .pratos, .bebidas, .sobremesas {   
+    width: 586px; 
+    border-radius: 9px;
+    display: flex;
+}
+
+.conteudo .prato, .bebida, .sobremesa {
+    height: 216px;
+    width: 172px;    
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.pratos img {
+    margin: 18px 14px 0px 14px;
+    border-radius: 4px;
+}
+
+
+
+.MarginRightMaior {
+    margin-right: 19px;
+}
+
+.MarginLeftMaior {
+    margin-left: 19px;
+}
+
+.conteudo .bebida {
+    height: 202px;
+}
+
+.conteudo .sobremesa {
+    height: 197px;
 }
 
 .rodape {
     height: 92px;
     background-color: #FFFFFF;
 }
+
+.cabecario {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 15px;
+    margin-top: 8px;
+    height: 23px;
+    
+}
+
+.descricao {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-right: 11px;
+}
+
+.preco {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    height: 19px;
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.imgsobremesa {
+    width: 144px;
+    height: 82px;
+    margin: 19px 13px 7px 15px;
+    border-radius: 4px;
+}
+
+.imgbebida {
+    width: 144px;
+    height: 87px;
+    margin: 19px 13px 8px 15px;
+    border-radius: 4px;
+}
+   
