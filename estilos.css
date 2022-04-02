@@ -1,0 +1,26 @@
+
+
+
+body {
+    
+  
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 414px;
+}
+
+.topo {
+    height: 92px;
+    background-color: #CF2B2B;    
+}
+
+.conteudo {
+    height: 842px;
+}
+
+.rodape {
+    height: 92px;
+    background-color: #FFFFFF;
+}
