@@ -85,6 +85,8 @@ body {
 
 
 
+
+
 .MarginRightMaior {
     margin-right: 19px;
 }
@@ -142,17 +144,42 @@ body {
     margin-top: 5px;
 }
 
-.imgsobremesa {
-    width: 144px;
-    height: 82px;
-    margin: 19px 13px 7px 15px;
-    border-radius: 4px;
-}
-
 .imgbebida {
     width: 144px;
     height: 87px;
     margin: 19px 13px 8px 15px;
     border-radius: 4px;
 }
+
+
+.cabecariobebida {
+    margin: 0 18px 4px 15px;
+}
+
+.descricaobebida {
+    margin: 0 11px 9px 14px;
+}
    
+.precobebida {
+    margin: 0 92px 16px 14px;
+}
+
+.imgsobremesa {
+    width: 144px;
+    height: 82px;
+    margin: 18px 13px 8px 15px;
+    border-radius: 4px;
+}
+
+.cabecariosobremesa {
+    margin: 0 18px 4px 15px;
+}
+
+.descricaosobremesa {
+    margin: 0 11px 9px 14px;
+}
+
+.precosobremesa {
+    margin: 0 92px 16px 14px;
+}
+
