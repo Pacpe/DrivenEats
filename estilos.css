@@ -121,23 +121,24 @@ body {
     background-color: #FFFFFF;
     margin-top: 0px;
     margin-bottom: 0px;
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    cursor: pointer;
 }
 
-.esperadeselecao {
-    position: absolute;
+.esperadeselecao {    
     width: 364px;
     height: 61px;
     background: #CBCBCB;
-    border-radius: 50px;
-    position: absolute;
+    border-radius: 50px; 
+    
 }
 
 .botaofinal {  
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
@@ -148,10 +149,13 @@ body {
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    letter-spacing: 0.018em;
-    width: 364px;
-    height: 53px;
-    color: #FFFFFF;
+    letter-spacing: 0.018em;    
+    color: #FFFFFF;  
+    margin-top: 5px;
+}
+
+.aumentarMargem {
+    margin-top: 15px;
 }
 
 .verde {
@@ -234,7 +238,28 @@ body {
 }
 
 .selecionado {
-    border: 5px solid green;
+    
+    box-shadow: inset 0px 0px 0px 7px #32B72F;
     box-sizing: border-box;
 }
+
+ion-icon {
+    background-color: #32B72F;
+    width: 15.44px;
+    height: 15.44px; 
+    color: white;
+}
+
+.esconder {
+    display: none;
+}
+
+.esconder2 {
+    display: none;
+}
+
+.esconder3 {
+    display: none;
+}
+
 
