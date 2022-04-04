@@ -14,6 +14,7 @@ body {
 
 .container {
    width: 414px;
+   position: relative;
 }
 
 .topo {
@@ -86,6 +87,10 @@ body {
     margin-right: 16px;
 }
 
+.aumentar {
+    width: 182px;
+}
+
 .pratos img {
     margin: 18px 14px 0px 14px;
     border-radius: 4px;
@@ -116,12 +121,41 @@ body {
     background-color: #FFFFFF;
     margin-top: 0px;
     margin-bottom: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esperadeselecao {
     position: absolute;
-    z-index: 1;
+    width: 364px;
+    height: 61px;
+    background: #CBCBCB;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.botaofinal {  
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    width: 364px;
+    height: 53px;
+    color: #FFFFFF;
 }
 
 .verde {
-    background-color: green;
+    background: green;
 }
 
 .cabecario {

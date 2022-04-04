@@ -17,69 +17,73 @@
         <div class="conteudo">
             <p class="Primeiro">Primeiro, seu prato</p>
             <div class="pratos">
-                <div class="prato MarginLeftMaior" onclick="pratosborda(this)">
+                <div class="prato MarginLeftMaior" onclick="pratosborda(this, `Carne Boa`, 14.90)">
                     <img src="carne1.jpg" alt="Carne">
                     <p class="cabecario">Carne Boa</p>
                     <p class="descricao">Uma carne de muito sabor</p>
                     <p class="preco">R$ 14,90</p>
                 </div>
-                <div class="prato" onclick="pratosborda(this)">
-                    <img src="frango1.jpg" alt="Carne">
-                    <p class="cabecario">Frango Bom</p>
+                <div class="prato" onclick="pratosborda(this, `Frango Bom`, 14.91)">
+                    <img src="frango1.jpg" alt="Frango">
+                    <p class="cabecario" onclick="pratosborda(this)">Frango Bom</p>
                     <p class="descricao">Um frango de muito sabor</p>
-                    <p class="preco">R$ 14,90</p>
+                    <p class="preco">R$ 14,91</p>
                 </div>
-                <div class="prato MarginRightMaior" onclick="pratosborda(this)">
-                    <img src="parmegiana1.jpg" alt="Carne">
-                    <p class="cabecario">Parmegiana</p>
+                <div class="prato MarginRightMaior" onclick="pratosborda(this, `Parmegiana`, 14.92)">
+                    <img src="parmegiana1.jpg" alt="Parmegiana">
+                    <p class="cabecario" onclick="pratosborda(this)">Parmegiana</p>
                     <p class="descricao">Um prato de muito sabor</p>
-                    <p class="preco">R$ 14,90</p>
+                    <p class="preco">R$ 14,92</p>
                 </div>
             </div>
             <p class="marginMenor Primeiro">Agora, sua bebida</p>
             <div class="bebidas">
-                <div class="bebida MarginLeftMaior" onclick="bebidasborda(this)">
-                    <img src="refrigerante1.jpg" alt="Carne" class="imgbebida">
+                <div class="bebida MarginLeftMaior" onclick="bebidasborda(this, `Refrigerante`, 5.90)">
+                    <img src="refrigerante1.jpg" alt="Refrigerante" class="imgbebida">
                     <p class="cabecario cabecariobebida">Refrigerante</p>
                     <p class="descricao descricaobebida">250 ml.</p>
                     <p class="preco precobebida">R$ 5,90</p>
                 </div>
-                <div class="bebida" onclick="bebidasborda(this)">
-                    <img src="agua1.jpg" alt="Carne" class="imgbebida">
+                <div class="bebida" onclick="bebidasborda(this, `Agua`, 5.91)">
+                    <img src="agua1.jpg" alt="Agua" class="imgbebida">
                     <p class="cabecario cabecariobebida">Agua</p>
                     <p class="descricao descricaobebida">250 ml.</p>
-                    <p class="preco precobebida">R$ 5,90</p>
+                    <p class="preco precobebida">R$ 5,91</p>
                 </div>
-                <div class="bebida MarginRightMaior" onclick="bebidasborda(this)">
-                    <img src="suco1.jpg" alt="Carne" class="imgbebida">
+                <div class="bebida MarginRightMaior" onclick="bebidasborda(this, `Suco`, 5.92)">
+                    <img src="suco1.jpg" alt="Suco" class="imgbebida">
                     <p class="cabecario cabecariobebida">Suco</p>
                     <p class="descricao descricaobebida">250 ml.</p>
-                    <p class="preco precobebida">R$ 5,90</p>
+                    <p class="preco precobebida">R$ 5,92</p>
                 </div>
             </div>
             <p class="marginMenor Primeiro">Por fim, sua sobremesa</p>
             <div class="sobremesas">
-                <div class="sobremesa MarginLeftMaior" onclick="sobremesasborda(this)">
-                    <img src="docelimao1.jpg" alt="Carne" class="imgsobremesa">
+                <div class="sobremesa MarginLeftMaior" onclick="sobremesasborda(this, `Doce de Limão`, 8.90)">
+                    <img src="docelimao1.jpg" alt="Doce de Limão" class="imgsobremesa">
                     <p class="cabecario cabecariosobremesa">Doce de Limão</p>
                     <p class="descricao descricaosobremesa">Limão com doce</p>
                     <p class="preco precosobremesa">R$ 8,90</p>
                 </div>
-                <div class="sobremesa" onclick="sobremesasborda(this)">
-                    <img src="pudim1.jpg" alt="Carne" class="imgsobremesa">
+                <div class="sobremesa" onclick="sobremesasborda(this, `Pudim`, 8.91)">
+                    <img src="pudim1.jpg" alt="Pudim" class="imgsobremesa">
                     <p class="cabecario cabecariosobremesa">Pudim</p>
                     <p class="descricao descricaosobremesa">Apenas pudim</p>
-                    <p class="preco precosobremesa">R$ 8,90</p>
+                    <p class="preco precosobremesa">R$ 8,91</p>
                 </div>
-                <div class="sobremesa MarginRightMaior" onclick="sobremesasborda(this)">
-                    <img src="tortabrownie.jpg" alt="Carne" class="imgsobremesa">
+                <div class="sobremesa MarginRightMaior" onclick="sobremesasborda(this, `Torta Brownie`, 8.92)">
+                    <img src="tortabrownie.jpg" alt="Torta Brownie" class="imgsobremesa">
                     <p class="cabecario cabecariosobremesa">Torta Brownie</p>
                     <p class="descricao descricaosobremesa">Brownie em Torta</p>
-                    <p class="preco precosobremesa">R$ 8,90</p>
+                    <p class="preco precosobremesa">R$ 8,92</p>
                 </div>
             </div>
         </div>
-        <div class="rodape"></div>
+        <div class="rodape">
+            <button class="esperadeselecao" onclick="whatsapp()"></button>
+                <p class="botaofinal">Selecione os 3 itens para fechar o pedido</p>
+            </div>
+        </div>
     </div>
     <script src="scripts.js"></script>
 </body>
